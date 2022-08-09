@@ -5,12 +5,14 @@ Each patient waits in a different queue (red, yellow or green) depending on the 
 Patients waiting in the red queue are cared for first; if the red queue is empty, all the patients waiting in the yellow queue are assisted and, finally, if the red and yellow queues are empty, the patients waiting in the green queue are assisted.
 Each queue can accommodate up to 70 patients.
 
+## Data Structure 
 The data relating to each patient are as follows:
 - Tax Code (16-character string).
 - Surname (Utringa of 20 characters).
 - Name (A 20-character string).
 - Age (Integer greater than or equal to zero).
 
+## Tasks
 The program realizes the following functionalities:
 
 - Queue a patient in the appropriate queue if there is space in the emergency room.
@@ -18,6 +20,7 @@ The program realizes the following functionalities:
 - End a visit, freeing the doctor.
 - Print the number of patients waiting for each queue, and calculate the sum.
 
+## Given files
 For the implementation of the application, the student has at his disposal:
 - The design of the entire application, already defined in terms of files and prototypes of the functions to be implemented;
 - Queue management functions (except the queuing function) which must be used without making any changes to them (neither to the prototypes nor to their provided implementation). Obviously, the missing function must be implemented by the student.
